@@ -1,0 +1,254 @@
+@media screen and (max-width: 992px) {
+  header {
+    height: auto;
+    max-height: none;
+  }
+  header .wave-img {
+    height: 25%;
+  }
+  header nav ul {
+    display: none;
+  }
+  header .button-box {
+    display: none;
+  }
+  header .menu-icon {
+    display: block;
+  }
+  header nav ul {
+    background: var(--white);
+    width: 90%;
+    top: 0px;
+    left: 5%;
+    position: absolute;
+    z-index: 555;
+    transition: 0.5s;
+  }
+  header nav ul li {
+    border-bottom: 2px solid #ddd;
+  }
+  header nav ul li a {
+    color: var(--black);
+    padding: 10px;
+  }
+  header .header-inner {
+    display: block;
+    text-align: center;
+  }
+  /* header section end  */
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* services section end  */
+  .about-section {
+    display: block;
+  }
+  .about-content {
+    margin-bottom: 20px;
+  }
+  /* about section end  */
+}
+
+/* responsive for mobile  */
+@media screen and (max-width: 572px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* choose section start */
+@media screen and (max-width: 992px) {
+  .choose-us-section {
+    display: block;
+  }
+  .choose-us-img {
+    padding-bottom: 50px;
+  }
+}
+/* choose section end */
+
+/* trust section start */
+
+@media screen and (max-width: 992px) {
+  .trust-sec {
+    margin-top: 90px;
+  }
+}
+/* trust section end */
+
+/* portfolio section start */
+/*
+@media screen and (max-width: 991px) {
+  .port-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .port-img {
+    grid-template-columns: 1fr;
+  }
+
+  .port-btn {
+    display: block;
+  }
+  .text-btn {
+    margin-top: 10px;
+  }
+}*/
+
+@media screen and (max-width: 991px) {
+  .portfolio-section .portfolio-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-section .portfolio-images {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-section .portfolio-list {
+    display: block;
+  }
+}
+/* portfolio section end */
+
+/* details section start */
+@media screen and (max-width: 991px) {
+  .cont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .div1 {
+    margin-top: 10%;
+  }
+  .div2 {
+    margin-top: 30%;
+  }
+  .details {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .details {
+    height: 75vh;
+  }
+  .cont {
+    display: block;
+  }
+  .div1 {
+    margin-top: 7%;
+  }
+  .text {
+    font-size: 30px;
+  }
+  .text2 {
+    font-size: 20px;
+  }
+}
+/* details section end */
+
+/* testimonial section start */
+@media screen and (max-width: 992px) {
+  .team-sec {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-sec {
+    grid-template-columns: 1fr;
+  }
+}
+/* testimonial section end /*
+
+/* blog section start */
+@media screen and (max-width: 992px) {
+  .blog-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog-img {
+    grid-template-columns: 1fr;
+  }
+}
+/* blog section end */
+
+/* work section start */
+@media screen and (max-width: 560px) {
+  .work-main {
+    height: 50vh;
+  }
+  .work-h3 {
+    margin-top: 40px;
+  }
+  .work-para {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .work-main {
+    height: 65vh;
+  }
+  .work-sec {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .work-main {
+    height: 70vh;
+  }
+  .work-sec {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+/* work section end */
+
+/* customer section start */
+@media screen and (max-width: 992px) {
+  .client-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .client-img {
+    grid-template-columns: 1fr;
+  }
+}
+/* customer section end */
+
+/* footer section start */
+@media screen and (max-width: 992px) {
+  .footer-sec {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer-sec {
+    grid-template-columns: 1fr;
+  }
+}
+/* footer section end */
+
+/* last footer section start */
+@media screen and (max-width: 768px) {
+  .finish {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32%;
+  }
+}
+/* last footer section end */
